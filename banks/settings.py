@@ -25,7 +25,7 @@ SECRET_KEY = 'btb_sbr^jyy)-&($*rnpckeu^076f*x=n^@#td96px*_&#17nc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','bankserver.herokuapp.com']
 
 
 # Application definition
