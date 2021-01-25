@@ -10,7 +10,7 @@ class BranchViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    search_fields= ['=branch','=city','=ifsc','=state','=bank__id']
+    search_fields= ['branch','city','ifsc','state','bank__name']
     ordering_fields=['ifsc']
     filter_backends=[filters.SearchFilter,filters.OrderingFilter]
     queryset = Branches.objects.all()

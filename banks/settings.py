@@ -141,5 +141,6 @@ STATIC_URL = '/static/'
 # CORS ORIGIN 
 
 CORS_ORIGIN_WHITELIST = (
-     'https://banksfrontend.herokuapp.com',
+    'http://localhost:3000',
+    'https://banksfrontend.herokuapp.com',
  )
